@@ -36,6 +36,7 @@ public class RenderContext extends View {
 			
 		}
 
+		
 		Globals.setTouchX(event.getX());
 		Globals.setTouchY(event.getY());
 		
@@ -45,6 +46,7 @@ public class RenderContext extends View {
 	
 	@Override
 	protected void onDraw(Canvas canvas) {
+		//TODO: Rico: Warum werden die beiden folgenden Variablen hier gesetzt und nicht im Constructor?
 		Globals.setScreenSizeX(canvas.getWidth());
 		Globals.setScreenSizeY(canvas.getHeight());
 		
