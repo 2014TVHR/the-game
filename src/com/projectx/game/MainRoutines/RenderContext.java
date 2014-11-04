@@ -55,6 +55,7 @@ public class RenderContext extends View {
 		//TODO: 7. Test
 		//TODO: 8. Test (Henrik)
 		//TODO: 9. testilein
+		//TODO: 10. Test blabla
 		Globals.setScreenSizeX(canvas.getWidth());
 		Globals.setScreenSizeY(canvas.getHeight());
 		
