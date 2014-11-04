@@ -17,6 +17,16 @@ import android.view.WindowManager;
  */
 public class GameActivity extends Activity {
 
+	//TODO: Git richtig benutzen:
+	//aktuelle Version runterladen und auschecken:
+	// "Remotes/origin" -> fetch
+	// "Branches/RemoteTracking/origin" -> check out as new local branch (z.B. ###)
+	// alle Änderungen gehen in den lokalen "Branches/Local/###"
+	//
+	//eigene Version hochladen:
+	// Project -> commit
+	// "Branches/Local/###" -> push branch
+	
 	private static GameActivity instance = null;
 	
 	public static GameActivity getInstance()
