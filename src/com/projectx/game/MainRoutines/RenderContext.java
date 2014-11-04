@@ -47,10 +47,11 @@ public class RenderContext extends View {
 	@Override
 	protected void onDraw(Canvas canvas) {
 		//TODO: Rico: Warum werden die beiden folgenden Variablen hier gesetzt und nicht im Constructor?
-		//TODO: Henrik Die sind für globale angaben gedacht. Also für die Berechnung etc...
-		//TODO: 3. Änderung!
-		//TODO: 4. Änderung von Henrik!
-		//TODO: 5. Änderung Akira
+		//TODO: Henrik Die sind fÃ¼r globale angaben gedacht. Also fÃ¼r die Berechnung etc...
+		//TODO: 3. Ã„nderung!
+		//TODO: 4. Ã„nderung von Henrik!
+		//TODO: 5. Ã„nderung Akira
+		//TODO: 6. Ã„nderung (Webinterface)
 		Globals.setScreenSizeX(canvas.getWidth());
 		Globals.setScreenSizeY(canvas.getHeight());
 		
