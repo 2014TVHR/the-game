@@ -50,6 +50,7 @@ public class RenderContext extends View {
 		//TODO: Henrik Die sind für globale angaben gedacht. Also für die Berechnung etc...
 		//TODO: 3. Änderung!
 		//TODO: 4. Änderung von Henrik!
+		//TODO: 5. Änderung Akira
 		Globals.setScreenSizeX(canvas.getWidth());
 		Globals.setScreenSizeY(canvas.getHeight());
 		
